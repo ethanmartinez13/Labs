@@ -1,0 +1,15 @@
+import java.util.LinkedList;
+
+public class MyHashMap<K, V> implements MyMap<K, V> {
+private int size;
+LinkedList<Entry<K, V>>[] table;
+table = new LinkedList[capacity];
+if (get(key) != null)
+    if (entry.getValue().equals(value))
+        if (entry.getKey().equals(key))
+            return size == 0;
+rehash();
+size++;
+size--;
+put(entry.getKey(), entry.getValue());
+}
